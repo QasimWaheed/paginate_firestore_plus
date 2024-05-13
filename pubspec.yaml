@@ -1,0 +1,21 @@
+name: paginate_firestore
+description: A flutter package to simplify pagination with firestore data.
+version: 1.0.3+1
+homepage: https://github.com/excogitatr/paginate_firestore
+issue_tracker: https://github.com/excogitatr/paginate_firestore/issues
+
+environment:
+  sdk: ">=3.3.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.5
+  cloud_firestore: ^4.17.3
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
